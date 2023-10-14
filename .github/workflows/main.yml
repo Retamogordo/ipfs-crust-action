@@ -13,7 +13,7 @@ jobs:
         id: pinv0
         uses: crustio/ipfs-crust-action@v2.0.6
         with:
-          cid: QmevJf2rdNibZCGrgeyVJEM82y5DsXgMDHXM6zBtQ6G4Vj
+          cid: QmXBBDnomuNyaHGgFs2PXQKmPtSLRs6xPATbVhWPYtVTt8
           seeds: ${{ secrets.CRUST_SEEDS }}
       - name: Print res(V0)
         run: echo "Pin ${{ steps.pin.outputs.res }} success!"
